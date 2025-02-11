@@ -1,0 +1,3 @@
+C:/Users/previ_pvxef/Downloads/temperature_monitor_c/build/CMakeFiles/TemperatureMonitor.dir
+C:/Users/previ_pvxef/Downloads/temperature_monitor_c/build/CMakeFiles/edit_cache.dir
+C:/Users/previ_pvxef/Downloads/temperature_monitor_c/build/CMakeFiles/rebuild_cache.dir

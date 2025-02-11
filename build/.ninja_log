@@ -1,0 +1,7 @@
+# ninja log v6
+7	86	7609104576025951	CMakeFiles/TemperatureMonitor.dir/system_config.c.obj	521d61b0cefa412d
+20	103	7609104576156192	CMakeFiles/TemperatureMonitor.dir/led_controller.c.obj	d28231c530c6659b
+26	110	7609104576216289	CMakeFiles/TemperatureMonitor.dir/eeprom_handler.c.obj	bf39e115efd51865
+12	126	7609104576072395	CMakeFiles/TemperatureMonitor.dir/adc_handler.c.obj	50f27517f7b7bed6
+2	452	7609104575968946	CMakeFiles/TemperatureMonitor.dir/main.c.obj	ef4fa2cf63f599d6
+453	869	7609104580481048	TemperatureMonitor.exe	6d68dc3cef2ef835
