@@ -83,10 +83,10 @@ int main() {
             printf("Max temperature reached (%.1f°C). Stopping simulation after %d iterations.\n", MAX_TEMP, counter);
             break;
         }
-        if (counter >= COUNTER_LIMIT) {
+        //if (counter >= COUNTER_LIMIT) {
             //printf("DEBUG: Exiting loop at counter = %d\n", counter);
-            break;
-        }
+        //    break;
+        //}
         #ifdef _MSC_VER
             Sleep(SAMPLING_INTERVAL_US / 1000);  // Sleep for 100 milliseconds in MSVC
         #else
