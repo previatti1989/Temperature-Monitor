@@ -14,6 +14,7 @@ add_executable(TemperatureMonitor
     adc_handler.c
     led_controller.c
     eeprom_handler.c
+    timer_handler.c
 )
 
 # Include Directories

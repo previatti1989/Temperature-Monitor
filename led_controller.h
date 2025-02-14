@@ -2,6 +2,7 @@
 #define LED_CONTROLLER_H
 
 #include <stdint.h>
+#include "adc_handler.h"
 
 typedef enum {
     LED_OFF,
@@ -14,6 +15,6 @@ typedef struct {
     LedState red;
 } LedStatus;
 
-void update_leds(float temp, LedStatus *leds);
+void update_leds(float value, SensorType sensor, LedStatus *leds);
 
 #endif // LED_CONTROLLER_H

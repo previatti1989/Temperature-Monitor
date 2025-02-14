@@ -3,7 +3,14 @@
 
 #include <stdint.h>
 
-int16_t read_adc(uint8_t revision);
-float convert_adc_to_temp(int16_t adc_value, uint8_t revision);
+// types of sensor
+typedef enum {
+    SENSOR_TEMP,
+    SENSOR_PRESS,
+    SENSOR_MAG
+} SensorType;
+
+void adc_init(SensorType sensor);
+int16_t read_adc(SensorType sensor);
 
 #endif // ADC_HANDLER_H

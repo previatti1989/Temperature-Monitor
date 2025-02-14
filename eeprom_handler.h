@@ -3,11 +3,16 @@
 
 #include <stdint.h>
 
-// Revision
-#define REV_A 0
-#define REV_B 1
-#define SERIAL "ABC1234"
+// Define EEPROM storage keys
+typedef enum {
+    EEPROM_TEMP_REVISION,
+    EEPROM_PRESS_REVISION,
+    EEPROM_MAG_REVISION
+} EEPROMKey;
 
-char* get_serial_number();
+uint8_t get_revision(EEPROMKey key);
+void set_revision(EEPROMKey key, uint8_t new_revision);
+void write_eeprom(EEPROMKey key, uint16_t value);
+uint16_t read_eeprom(EEPROMKey key);
 
 #endif // EEPROM_HANDLER_H

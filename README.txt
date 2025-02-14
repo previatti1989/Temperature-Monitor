@@ -3,10 +3,10 @@ Temperature Monitoring System - C Version
 Open a terminal and navigate to the project folder
 Compile:
 gcc:
-1. gcc main.c adc_handler.c eeprom_handler.c led_controller.c system_config.c -o temperature_monitor.exe
+1. gcc main.c adc_handler.c eeprom_handler.c led_controller.c system_config.c timer_handler.c -o temperature_monitor.exe
 2. ./temperature_monitor.exe
 msvc:
-1. cl main.c adc_handler.c eeprom_handler.c led_controller.c system_config.c
+1. cl main.c adc_handler.c eeprom_handler.c led_controller.c system_config.c timer_handler.c
 2. ./main.exe
 cmake:
 mkdir build
